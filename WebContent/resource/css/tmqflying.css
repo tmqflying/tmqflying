@@ -4,7 +4,7 @@ a {outline-style: none !important; /*remove the outline when selected.*/}
 
 .navbar.navbar-default {
     border-color: transparent;
-    position: absolute;
+    position: fixed;
     z-index: 100;
 	border-radius: 0;
 	width: 100%;
