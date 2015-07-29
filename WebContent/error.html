@@ -1,66 +1,17 @@
 <!DOCTYPE html>
 <html lang="zh-CN" class="qp-ui">
-  <head>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <meta name="viewport" content="initial-scale=1, width=device-width">
-    <link href="/resource/imgs/favicon.ico" rel="shortcut icon">
-    <link href="/resource/imgs/favicon.ico" rel="bookmark">
-    <style type="text/css">
-      body{font-family: cursive;}
-      .not-found{
-      	width: 100%;
-        color: rgb(207, 207, 207);
-      }
-      .not-found ul {
-        list-style: none;
-        font-size: 72px;
-        display: inline-flex;
-      }
-      
-      #info {
-      	color: red;
-      	font-size: 40px;
-      	margin-left: 10px;
-      }
-    </style>
-    
-    <title>哇，此页面被盗贼拿走啦</title>
-    
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="initial-scale=1, width=device-width">
+<link href="/resource/imgs/favicon.ico" rel="shortcut icon">
+<link href="/resource/imgs/favicon.ico" rel="bookmark">
 
-    <script> 
-       	var countdown = 3;
-        window.onload = function() {
-        	setTimeout(function(){
-        		home();
-        		document.getElementById("info").innerHTML = "n";
-        		document.getElementById("info_help").innerHTML = "&#x79D2;&#x540E;&#x4E3A;&#x60A8;&#x8DF3;&#x8F6C;&#x5230;&#x9996;&#x9875;&#xFF01;";
-        	},2000);
-        }
-       	function home(){
-        	setTimeout(function(){
-        		if (countdown < 0) {
-	        		countdown = 3;
-	        		location.href="http://www.tmqflying.com/";
-        		} else {
-	        		document.getElementById("info").innerHTML = countdown;
-	        		countdown--;
-        		}
-        		home();
-    		},1000); // 3秒后自动跳转至首页
-    	}
-    </script> 
+<title>然而这里什么都没有</title>
 
-  </head>
-  <body>
-  	<div class="not-found">
-  	  <ul>
-  	    <li>4</li>
-  	    <li>0</li>
-  	    <li>4</li>
-  	  </ul>
-  	  <span id="info">&#9729;</span><span id="info_help"></span>
-  	</div>
-
-  </body>
+</head>
+<body>
+  <span style="color: red;font-size: 48px;">404</span>
+  <a href="/" target="_self" style="color: grey; text-decoration: none; outline: none;">tmqflying.com</a>
+</body>
 </html>
