@@ -1,5 +1,8 @@
 /*custom global style*/
-body {display: none;}
+body {
+	display: none;
+	font-family: "microsoft yahei";
+}
 a {outline-style: none !important; /*remove the outline when selected.*/}
 
 .navbar.navbar-default {
@@ -122,6 +125,18 @@ a {outline-style: none !important; /*remove the outline when selected.*/}
 
 
 /*common setting*/
+.cus-bg-articles small,
+.cus-bg-books small,
+.cus-bg-tech small {
+	color: white;
+}
+.cus-bg-articles,
+.cus-bg-books,
+.cus-bg-tech {
+	text-shadow: 0 1px 7px;
+	font-family: "microsoft yahei";
+}
+
 .cus-bg-articles {background: #eee url(/resource/imgs/jpbtna.jpg) no-repeat center; }
 .cus-bg-books {background: #eee url(/resource/imgs/jpbtnb.jpg) no-repeat center; }
 .cus-bg-tech {background: #eee url(/resource/imgs/jpbtnc.jpg) no-repeat center; }
